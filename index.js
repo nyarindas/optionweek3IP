@@ -31,10 +31,27 @@ generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
 function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
     function showQuestions(questions, quizContainer){
+    
         var output =[];
         var answers;
+            //for each question
+        for(var i=0; i<questions.length; i++){
+
+            //resetting list of answers
+        answers =[];
+
+        for(letter in questions[i].answers){
+
+            //add HTML radio button
+            
 
     }
+
+
+
+
+
+
     function showResults(questions, quizContainer,resultsContainer){
 
     }
@@ -45,3 +62,4 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     submitButton.onclick = function(){
         showResults(questions, quizContainer, resultsContainer);
     }
+}
