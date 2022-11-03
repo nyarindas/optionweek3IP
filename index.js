@@ -39,4 +39,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     showQuestions(questions,quizContainer);
 
     //showresults
-    
+    submitButton.onclick = function(){
+        showResults(questions, quizContainer, resultsContainer);
+    }
