@@ -32,4 +32,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     function  showQuestions(questions, quizContainer) {
 
     }
-    function showResults
+    function showResults(questions, quizContainer,resultsContainer){
+        
+    }
