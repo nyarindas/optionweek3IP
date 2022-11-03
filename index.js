@@ -43,7 +43,15 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
         for(letter in questions[i].answers){
 
             //add HTML radio button
-            
+        answers.push(
+            '<label>'
+                + '<input type="radio" name="question' +i+'" value="'+letter+'">'
+                + letter + ':'
+                + questions[i].answers[letter]
+            +'</label>'
+
+
+        );
 
     }
 
