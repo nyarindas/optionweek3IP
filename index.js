@@ -33,5 +33,10 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
     }
     function showResults(questions, quizContainer,resultsContainer){
-        
+
     }
+    //show the questions
+    showQuestions(questions,quizContainer);
+
+    //showresults
+    
